@@ -225,7 +225,7 @@ nav a:hover {
 }
 
 .home-title-two h2{
-    animation: mcc-label-anim 500ms ease-out both;
+    animation: uoft-label-anim 500ms ease-out both;
     animation-delay: 1250ms;
 }
 
@@ -247,7 +247,13 @@ nav a:hover {
     from {color: rgba(0,0,0,0);
       text-shadow: none;}
      to {color: var(--light-clr);
-      /* text-shadow: 5px 2px #9b7f48; */
+      text-shadow: 5px 2px #9b7f48;
+    }
+  }
+
+  @keyframes uoft-label-anim {
+    from {color: rgba(0,0,0,0);}
+     to {color: var(--light-clr);
     }
   }
   
@@ -873,7 +879,7 @@ nav a:hover {
   margin-bottom: 3rem;
 }
 
-@media (min-width:900px) {
+@media (min-width:1100px) {
   .contact-info-container{
       flex-direction: row;
       row-gap: 2rem;
@@ -927,4 +933,91 @@ nav a:hover {
 
 .contact-card button:hover, .contact-card button:focus {
   background-color: var(--light-clr);
+}
+
+.make-change-page {
+  min-height: 100vh;
+  background-image: url("../img/make-change-bg.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  padding: 20vh 5rem 5rem 5rem;
+}
+
+.make-change-page ~ {
+  margin: 0 auto;
+}
+.make-change-page h1 {
+  color: var(--light-clr);
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.make-change-container {
+  background-color: rgba(0,0,0,0.6);
+  color: var(--light-clr);
+  padding: 3rem;
+  font-size: 1rem;
+}
+
+.make-change-page p {
+  margin-bottom: 1rem;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto 1rem auto;
+  width: 55vw;
+  height: 30vw;
+
+}
+
+.make-change-page h2 {
+  text-align: center;
+  margin: 2rem 0;
+  color: var(--accent-clr);
+  font-size: 2rem;
+}
+
+.make-change-page h3 {
+  text-align: center;
+}
+
+.make-change-link {
+  background-color: #9b7f48;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  word-wrap: break-word;
+  max-width: 60%;
+}
+
+.make-change-link:hover {
+  background-color: #ffffffb8;
+  color: var(--dark-clr);
+}
+
+.make-change-social-media-card {
+  background-color: #ffffffb8;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.make-change-social-media-card h3 {
+  color: var(--dark-clr);
+  font-size: 2rem;
+}
+
+.make-change-social-media-card .make-change-link {
+  background-color: rgba(0,0,0,0.8);
+  width: fit-content;
+  padding: 1rem 1.5rem;
+}
+
+.make-change-social-media-card .make-change-link:hover {
+  background-color: #9b7f48;
+  color: var(--dark-clr);
 }
