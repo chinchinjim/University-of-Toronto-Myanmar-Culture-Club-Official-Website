@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myanmar Culture Club - University of Toronto</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="img/favicon.png" class="logo" alt="Myanmar Culture Club Logo"></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="reports.html">Reports</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="make-change.html">Make Change</a></li>
+          </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+    </header>
+    <div class="event-bg-container">
+        <div class="event-subpage food-bazaar-event-subpage">
+        <h1>UTSU Food Bazaar - Myanmar Culture Club Participant</h1>
+        <div class="event-date"><p>November 22, 2022</p></div>
+
+        <div class="slideshow-container">
+        
+            <div class="mySlides fade">
+            <img src="img/food-event-1.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-2.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-3.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-4.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-5.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-6.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-7.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-8.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-9.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-10.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-12.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-13.JPG" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+            <img src="img/food-event-15.JPG" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                }
+                slides[slideIndex-1].style.display = "block";
+            }
+            </script>
+            
+            </div>
+            <p>We joined the UTSU's Multi-Cultural Food Bazaar at the Student Commons. Using funding from our community partners, we served free Burmese Ee Kyaw Kway (Fried Bread) and Lay Pay Ye (Milk Tea) while having individuals learn a little bit about the country and culture. There was a great turnout of people interested in Myanmar and of course in our free food.</p>
+        </div>
+    </div>
+    <footer>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="reports.html">Reports</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="make-change.html">Make Change</a></li>
+            </ul>
+            <p>Copyright © 2023 Myanmar Culture Club</p>
+    </footer>
+</body>
+
+</html>

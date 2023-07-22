@@ -728,6 +728,7 @@ nav a:hover {
   button:hover {
     background-color: var(--light-clr);
     color: var(--dark-clr);
+    cursor: pointer;
   }
 
   
@@ -958,7 +959,7 @@ nav a:hover {
 .make-change-container {
   background-color: rgba(0,0,0,0.6);
   color: var(--light-clr);
-  padding: 3rem;
+  padding: 5vw;
   font-size: 1rem;
 }
 
@@ -991,11 +992,29 @@ iframe {
   padding: 2rem 1rem;
   word-wrap: break-word;
   max-width: 60%;
+  text-align: center;
+}
+
+.make-change-page p a {
+  text-decoration: none;
+  color: var(--accent-clr);
+}
+
+.make-change-page p a:hover {
+  color: var(--light-clr);
+}
+
+.make-change-link a {
+  text-decoration: none;
+  color: var(--dark-clr);
+}
+
+.make-change-link a:hover {
+  color: var(--accent-clr);
 }
 
 .make-change-link:hover {
   background-color: #ffffffb8;
-  color: var(--dark-clr);
 }
 
 .make-change-social-media-card {
@@ -1017,7 +1036,172 @@ iframe {
   padding: 1rem 1.5rem;
 }
 
+.make-change-social-media-card .make-change-link a {
+  color: var(--light-clr);
+}
+
 .make-change-social-media-card .make-change-link:hover {
   background-color: #9b7f48;
-  color: var(--dark-clr);
+}
+
+.make-change-social-media-card .make-change-link a:hover {
+  color: var(--accent-clr);
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  display: block;
+  margin: 2rem auto;
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.event-subpage .prev, .event-subpage .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.event-subpage .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.event-subpage .prev:hover, .event-subpage .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.event-subpage .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.event-bg-container {
+  padding: 20vh 5rem 3rem 5rem;
+  background-image: url("../img/eventsbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.event-subpage {
+  background-color: rgba(0,0,0,0.6);
+  padding: 3rem;
+  color: var(--light-clr);
+}
+
+.event-subpage h1 {
+  margin-bottom: 1rem;
+  color: var(--accent-clr);
+}
+
+.event-subpage .event-date {
+  margin-bottom: 2rem;
+}
+
+.first-meeting-event-subpage img {
+  width: 50vw;
+  height: 30vw;
+  margin: 2rem auto;
+  display: block;
+}
+
+.event-subpage p a {
+  text-decoration: none;
+  color: var(--accent-clr);
+}
+
+.event-subpage p a:hover {
+  color: var(--light-clr);
+}
+
+.report-bg-container {
+  background-image: url("../img/reportsbg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.6);
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.report-bg-container {
+  padding: 20vh 5rem 3rem 5rem;
+  color: var(--light-clr);
+}
+
+.report-subpage {
+  background-color: rgba(0,0,0,0.8);
+  padding: 5rem 8vw;
+}
+
+.report-subpage h1 {
+  margin-bottom: 1rem;
+  color: var(--accent-clr);
+}
+
+.report-subpage .report-date {
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+}
+
+.report-subpage .report-authors {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.report-quote {
+  color: var(--accent-clr);
+  margin: 0 12% 2rem;
+  font-size: 1.25rem;
+  padding-left: 1rem;
+  border-left: 2px var(--accent-clr) solid;
+  font-style: italic;
+}
+
+.report-bg-container img {
+  width: 70%;
+  display: block;
+  margin: 2rem auto;
+}
+
+.report-bg-container h3 {
+  color: var(--accent-clr);
+}
+
+.figure-sub {
+  padding: 0 3rem;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.report-bg-container p {
+  margin-bottom: 1rem;
 }
