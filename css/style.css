@@ -600,8 +600,8 @@ nav a:hover {
     background-blend-mode: darken;
     background-attachment: fixed;
     padding-top: 20vh;
-    padding-right: 10rem;
-    padding-left: 10rem;
+    padding-right: 10vw;
+    padding-left: 10vw;
     text-align: center;
   }
 
@@ -671,8 +671,8 @@ nav a:hover {
   .events-page {
     padding-top: 20vh;
     padding-bottom: 3rem;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 10vw;
+    padding-right: 10vw;
     color: var(--light-clr);
     background-image: url("../img/eventsbg.jpg");
     min-height: 100vh;
@@ -761,8 +761,8 @@ nav a:hover {
   background-color: rgba(0,0,0,0.6);
   background-blend-mode: darken;
   padding-top: 20vh;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 10vw;
+  padding-right: 10vw;
   padding-bottom: 5rem;
 }
 
@@ -834,8 +834,8 @@ nav a:hover {
   background-blend-mode: darken;
   background-attachment: fixed;
   padding-top: 20vh;
-  padding-left: 5rem;
-  padding-right: 5rem;
+  padding-left: 10vw;
+  padding-right: 10vw;
   padding-bottom: 3rem;
 }
 
@@ -944,7 +944,7 @@ nav a:hover {
   background-color: rgba(0,0,0,0.6);
   background-blend-mode: darken;
   background-attachment: fixed;
-  padding: 20vh 5rem 5rem 5rem;
+  padding: 20vh 10vw 5rem 10vw;
 }
 
 .make-change-page ~ {
@@ -1100,7 +1100,7 @@ iframe {
 }
 
 .event-bg-container {
-  padding: 20vh 5rem 3rem 5rem;
+  padding: 20vh 10vw 3rem 10vw;
   background-image: url("../img/eventsbg.jpg");
   background-size: cover;
   background-position: center;
@@ -1152,7 +1152,7 @@ iframe {
 }
 
 .report-bg-container {
-  padding: 20vh 5rem 3rem 5rem;
+  padding: 20vh 10vw 3rem 10vw;
   color: var(--light-clr);
 }
 
