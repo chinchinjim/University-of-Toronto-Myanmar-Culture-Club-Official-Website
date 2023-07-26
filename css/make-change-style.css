@@ -1,0 +1,113 @@
+.make-change-page {
+    min-height: 100vh;
+    background-image: url("../img/make-change-bg.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    padding: 20vh 10vw 5rem 10vw;
+  }
+  
+  .make-change-page ~ {
+    margin: 0 auto;
+  }
+  .make-change-page h1 {
+    color: var(--light-clr);
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .make-change-container {
+    background-color: rgba(0,0,0,0.6);
+    color: var(--light-clr);
+    padding: 5vw;
+    font-size: 1rem;
+  }
+  
+  .make-change-page p {
+    margin-bottom: 1rem;
+  }
+  
+  iframe {
+    display: block;
+    margin: 0 auto 1rem auto;
+    width: 55vw;
+    height: 30vw;
+  
+  }
+  
+  .make-change-page h2 {
+    text-align: center;
+    margin: 2rem 0;
+    color: var(--accent-clr);
+    font-size: 2rem;
+  }
+  
+  .make-change-page h3 {
+    text-align: center;
+  }
+  
+  .make-change-link {
+    background-color: #9b7f48;
+    margin: 2rem auto;
+    padding: 2rem 1rem;
+    word-wrap: break-word;
+    max-width: 60%;
+    text-align: center;
+  }
+  
+  .make-change-page p a {
+    text-decoration: none;
+    color: var(--accent-clr);
+  }
+  
+  .make-change-page p a:hover {
+    color: var(--light-clr);
+  }
+  
+  .make-change-link a {
+    text-decoration: none;
+    color: var(--dark-clr);
+  }
+  
+  .make-change-link a:hover {
+    color: var(--accent-clr);
+  }
+  
+  .make-change-link:hover {
+    background-color: #ffffffb8;
+  }
+  
+  .make-change-social-media-card {
+    background-color: #ffffffb8;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .make-change-social-media-card h3 {
+    color: var(--dark-clr);
+    font-size: 2rem;
+  }
+  
+  .make-change-social-media-card .make-change-link {
+    background-color: rgba(0,0,0,0.8);
+    width: fit-content;
+    padding: 1rem 1.5rem;
+  }
+  
+  .make-change-social-media-card .make-change-link a {
+    color: var(--light-clr);
+  }
+  
+  .make-change-social-media-card .make-change-link:hover {
+    background-color: #9b7f48;
+  }
+  
+  .make-change-social-media-card .make-change-link a:hover {
+    color: var(--accent-clr);
+  }
+  
+  

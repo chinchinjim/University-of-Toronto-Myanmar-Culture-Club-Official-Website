@@ -1,0 +1,78 @@
+.about-page {
+    color: var(--light-clr);
+    background-image: url("../img/aboutbg.jpg");
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    padding-top: 20vh;
+    padding-right: 10vw;
+    padding-left: 10vw;
+    text-align: center;
+}
+
+.about-page p {
+    margin: 2rem auto;
+    font-size: 1.05rem;
+}
+
+.about-page strong {
+    color: var(--accent-clr);
+}
+
+.about-page h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about-us-desc {
+    position: relative;
+}
+
+.about-us-desc::after{
+    content: '';
+    width: 50%;
+    height: 2px;
+    background-color: var(--accent-clr);
+    display: block;
+    bottom: -1em;
+    position: relative;
+    margin: 0 auto;
+}
+
+.constitution button{
+    font-size: 1.25rem;
+    padding: 1em 1.25em;
+    border-radius: 1em;
+    background-color: var(--accent-clr);
+}
+
+.constitution a {
+    text-decoration: none;
+    color: var(--dark-clr);
+}
+
+.constitution button:hover{
+    background-color: var(--light-clr);
+}
+
+.constitution::after{
+    content: '';
+    width: 50%;
+    height: 2px;
+    background-color: var(--accent-clr);
+    display: block;
+    bottom: -1em;
+    position: relative;
+    margin: 0 auto;
+}
+
+.about-us-logo {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 3rem;
+}
+
+

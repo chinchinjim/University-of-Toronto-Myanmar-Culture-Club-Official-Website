@@ -1,0 +1,113 @@
+.contact-page {
+    /* min-height: 100vh; */
+    background-image: url("../img/contactbg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: darken;
+    background-attachment: fixed;
+    padding-top: 20vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-bottom: 3rem;
+  }
+  
+  .contact-page h1 {
+    text-align: center;
+    color: var(--light-clr);
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-info-container {
+      display: grid;
+      align-items: center;
+      grid-auto-rows: 1fr 2px 1fr 2px 1fr;
+      gap: 1rem;
+      background-color: rgba(0,0,0,0.6);
+    }
+  
+  .contact-card {
+    color: var(--light-clr);
+    text-align: center;
+    justify-items: center;
+    padding: 3vw 2vw; 
+    word-wrap: break-word;
+  }
+  
+  .vl {
+    border-bottom: 2px solid var(--accent-clr);
+    width: 45%;
+    justify-self: center;
+  }
+  
+  
+  .contact-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .contact-card .contact-text {
+    margin-bottom: 3rem;
+  }
+  
+  @media (min-width: 1000px) {
+    .contact-info-container{
+        /* flex-direction: row; */
+        display: grid;
+        grid-template-columns: 1fr 2px 1fr 2px 1fr;
+        /* row-gap: 2rem; */
+        justify-content: center;
+        padding-top: 0;
+        gap: 2rem;
+    }
+  
+    .contact-card {
+      padding: 3vw 2vw; 
+    }
+  
+    .vl {
+      border-right: 2px solid var(--accent-clr);
+      height: 45%;
+      width: 1px;
+    }
+    
+  
+  }
+  
+  .contact-card button {
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: var(--dark-clr);
+    background-color: var(--accent-clr);
+    padding: .5em 1.25em;
+    border-radius: .25em;
+    margin: 0 auto;
+    font-size: 1.25rem;
+  }
+  
+  .contact-card a {
+    height: inherit;
+  }
+  
+  .contact-card .icon {
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  .contact-card img {
+    height: 15rem;
+    width: 15rem;
+  }
+  
+  .contact-button {
+    text-align: center;
+    padding: 1rem 2rem;
+  }
+  
+  .contact-card button:hover, .contact-card button:focus {
+    background-color: var(--light-clr);
+  }
+  
+  
