@@ -193,14 +193,14 @@ nav a:hover {
 
 .home-sec-one{
     width: 100vw;
-    min-height: 100vh;
+    height: 70vh;
     background-image: url("../img/homebg.jpeg");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-color: rgba(0,0,0,0.2);
     background-blend-mode: darken;
     background-attachment: fixed;
-    position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+    position: relative;
 }
 
 
@@ -284,7 +284,8 @@ nav a:hover {
     margin: 0 auto;
     padding: 5em 10vw;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    z-index: 100;
   }
 
   .mission-statement p::before {
@@ -341,12 +342,12 @@ nav a:hover {
   .home-sec-three-gradient h3 {
     color: var(--light-clr);
     margin: 0;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .initiative-card {
     color: var(--light-clr);
-    width: 50vw;
+    width: 80vw;
     height: 30rem;
     border-radius: 2rem;
     overflow: hidden;
@@ -402,7 +403,29 @@ nav a:hover {
       transform: scaleX(0);
     }
   
+    .card-title::after {
+      content: "";
+      position: absolute;
+      height: 4px;
+      width: calc(100% + 1.5rem);
+      background: var(--accent-clr);
+      left: -1.5rem;
+      bottom: -5px;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 500ms ease;
+    }
   
+
+  
+  .initiative-card:hover .card-title::after,
+  .initiative-card:focus-within .card-title::after {
+    transform: scaleX(1);
+  }
+
+  .initiative-card .card-button:hover, .initiative-card .card-button:focus {
+    background-color: var(--light-clr);
+  }
   }
   
   @media (prefers-reduced-motion:reduce){
@@ -434,14 +457,6 @@ nav a:hover {
     background: var(--accent-clr);
     left: -1.5rem;
     bottom: -5px;
-    transform: scaleX(0);
-    transform-origin: left;
-    transition: transform 500ms ease;
-  }
-  
-  .initiative-card:hover .card-title::after,
-  .initiative-card:focus-within .card-title::after {
-    transform: scaleX(1);
   }
   
   .card-body {
@@ -458,7 +473,7 @@ nav a:hover {
     border-radius: .25em;
   }
   
-  .initiative-card .card-button:hover, .initiative-card .card-button:focus {
+  .initiative-card .card-button:focus {
     background-color: var(--light-clr);
   }
 
@@ -469,7 +484,6 @@ nav a:hover {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    padding-top: 5rem;
   }
 
   @media (min-width:600px) {
@@ -514,7 +528,7 @@ nav a:hover {
 
   .keep-in-touch-box {
     z-index: 2;
-    width: 20rem;
+    width: 70vw;
     min-height: 10rem;
     position: relative;
     margin: 0 auto;
@@ -592,4 +606,57 @@ nav a:hover {
   }
 
 
-  
+  button {
+    background-color: var(--accent-clr);
+    border: none;
+    border-radius: 0.75rem;
+    padding: 0.5rem 1rem;
+    font-family: inherit;
+  }
+
+
+  button:hover {
+    background-color: var(--light-clr);
+    color: var(--dark-clr);
+    cursor: pointer;
+  }
+
+  .keep-in-touch-box-one {
+    left: 10vw; 
+    background-color: #ecc372c6;
+  }
+
+  .keep-in-touch-box-two {
+    top: -1rem; 
+    right: 10vw; 
+    background-color: rgba(0, 0, 0, 0.668);
+  }
+
+  .keep-in-touch-box-three {
+    top: -2rem; 
+    background-color: rgba(255, 255, 255, 0.69); 
+    color: black;
+  }
+
+  @media(orientation: landscape){
+    .home-sec-one {
+      min-height: 100vh;
+    }
+
+    h1 {
+      font-size: 6vw;
+    }
+
+    .home-title-one {
+      width: 40%;
+    }
+
+    h2 {
+      font-size: 3vw;
+    }
+
+    .keep-in-touch-box {
+      width: 30vw;
+    }
+  }
+

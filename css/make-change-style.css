@@ -6,7 +6,7 @@
     background-color: rgba(0,0,0,0.6);
     background-blend-mode: darken;
     background-attachment: fixed;
-    padding: 20vh 10vw 5rem 10vw;
+    padding: 20vh 3vw 5rem 3vw;
   }
   
   .make-change-page ~ {
@@ -18,6 +18,7 @@
     text-align: center;
     margin-bottom: 2rem;
   }
+
   .make-change-container {
     background-color: rgba(0,0,0,0.6);
     color: var(--light-clr);
@@ -28,14 +29,43 @@
   .make-change-page p {
     margin-bottom: 1rem;
   }
+
   
-  iframe {
-    display: block;
-    margin: 0 auto 1rem auto;
-    width: 55vw;
-    height: 30vw;
-  
+   .make-change-social-media-card {
+    background-color: #ffffffb8;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
+
+  iframe{
+    margin: 1rem auto !important;
+  }
+
+  .make-change-video iframe {
+    display: block;
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    height: 60vw;
+  }
+
+    @media (min-width: 600px){
+        .make-change-video iframe{
+            display: block;
+            margin: 0 auto 1rem auto;
+            width: 55vw;
+            height: 30vw;
+            }
+
+        .make-change-page {
+            padding: 20vh 10vw 5rem 10vw;
+        }
+
+        .make-change-social-media-card {
+            width: 80%;
+        }
+    } 
   
   .make-change-page h2 {
     text-align: center;
@@ -79,14 +109,6 @@
     background-color: #ffffffb8;
   }
   
-  .make-change-social-media-card {
-    background-color: #ffffffb8;
-    width: 80%;
-    margin: 0 auto;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-  
   .make-change-social-media-card h3 {
     color: var(--dark-clr);
     font-size: 2rem;
@@ -109,5 +131,6 @@
   .make-change-social-media-card .make-change-link a:hover {
     color: var(--accent-clr);
   }
+
   
   

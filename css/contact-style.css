@@ -110,4 +110,6 @@
     background-color: var(--light-clr);
   }
   
-  
+.instagram-media {
+    width: 100%;
+}  

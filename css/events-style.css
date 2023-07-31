@@ -45,22 +45,6 @@
     font-size: .9rem;
     padding-bottom: 1rem;
   }
-
-  button {
-    background-color: var(--accent-clr);
-    border: none;
-    border-radius: 0.75rem;
-    padding: 0.5rem 1rem;
-    font-family: inherit;
-  }
-
-
-  button:hover {
-    background-color: var(--light-clr);
-    color: var(--dark-clr);
-    cursor: pointer;
-  }
-
   
   @media (min-width:800px) {
 
