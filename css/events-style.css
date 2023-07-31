@@ -65,10 +65,14 @@
     .events-card img {
         width: 25rem;
     }
+
+    .event-bg-container {
+      padding: 20vh 10vw 3rem 10vw;
+    }
 }
 
 .event-bg-container {
-    padding: 20vh 10vw 3rem 10vw;
+    padding: 20vh 5vw 3rem 5vw;
     background-image: url("../img/eventsbg.jpg");
     background-size: cover;
     background-position: center;

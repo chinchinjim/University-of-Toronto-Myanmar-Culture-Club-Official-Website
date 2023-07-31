@@ -608,6 +608,7 @@ nav a:hover {
 
   button {
     background-color: var(--accent-clr);
+    color: var(--dark-clr);
     border: none;
     border-radius: 0.75rem;
     padding: 0.5rem 1rem;
@@ -660,3 +661,16 @@ nav a:hover {
     }
   }
 
+
+  @supports ( -webkit-touch-callout : none) {
+    .home-sec-one, .home-sec-three, .keep-in-touch, .about-page, .contact-page, .reports-page, .events-page, .make-change-page, .event-subpage, .report-subpage {
+    background-attachment:scroll;
+    }
+
+  }
+  
+  @supports not ( -webkit-touch-callout : none) {
+    .home-sec-one, .home-sec-three, .keep-in-touch, .about-page, .contact-page, .reports-page, .events-page, .make-change-page, .event-subpage, .report-subpage{
+    background-attachment: fixed;
+    }
+  }
