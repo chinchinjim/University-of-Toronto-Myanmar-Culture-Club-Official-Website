@@ -91,6 +91,7 @@
   .report-subpage h1 {
     margin-bottom: 1rem;
     color: var(--accent-clr);
+    font-size: 3rem;
   }
   
   .report-subpage .report-date {
@@ -146,4 +147,9 @@
     .report-bg-container img {
       width: 70%;
     }
+  }
+
+  .report-subpage a {
+    text-decoration: none;
+    color: inherit;
   }

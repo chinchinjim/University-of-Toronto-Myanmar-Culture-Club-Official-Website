@@ -41,6 +41,15 @@
     padding-bottom: 1rem;
   }
 
+  .events-page h2 a {
+    text-decoration: none;
+    color: var(--accent-clr);
+  }
+
+  .events-page h2 a:hover {
+    color: var(--light-clr);
+  }
+
   .events-card p {
     font-size: .9rem;
     padding-bottom: 1rem;
@@ -91,6 +100,7 @@
   .event-subpage h1 {
     margin-bottom: 1rem;
     color: var(--accent-clr);
+    font-size: 3rem;
   }
   
   .event-subpage .event-date {
@@ -163,5 +173,4 @@
     from {opacity: .4}
     to {opacity: 1}
   }
-  
   
