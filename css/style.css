@@ -674,3 +674,17 @@ nav a:hover {
     background-attachment: fixed;
     }
   }
+
+  .temp-sign-up {
+    width: 100vw;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+   .temp-sign-up button a {
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+  }
