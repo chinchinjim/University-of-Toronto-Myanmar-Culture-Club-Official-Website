@@ -678,20 +678,23 @@ nav a:hover {
 
   .temp-sign-up {
     width: 100vw;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  @media screen and (min-width: 600px){
+  @media screen and (min-width: 400px){
     .temp-sign-up button a {
       font-size: 5vw;
     }
   }
 
   @media screen and (min-width: 1000px){
+    .temp-sign-up{
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+
     .temp-sign-up button a {
        font-size: 2rem;
    }
