@@ -1,92 +1,387 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Myanmar Culture Club - University of Toronto</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/events-style.css">
-    <link rel="icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/events-style.css" />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header>
-        <a href="index.html"><img src="img/favicon.png" class="logo" alt="Myanmar Culture Club Logo"></a>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="events.html" class="active">Events</a></li>
-            <li><a href="reports.html">Reports</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="make-change.html">Make Change</a></li>
-          </ul>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
-        </label>
+      <a href="index.html"
+        ><img
+          src="img/favicon.png"
+          class="logo"
+          alt="Myanmar Culture Club Logo"
+      /></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="events.html" class="active">Events</a></li>
+          <li><a href="reports.html">Reports</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="make-change.html">Make Change</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
     </header>
 
     <div class="events-page">
-        <h1>Events</h1>
-        <div class="events-card right-event">
-            <img src="img/hihi-event.jpg" alt="Hi Hi Event">
-            <div class="event-desc-box">
-                <h2><a href="hihi-event.html">Hi Hi - Cross-Cultural Dialogue with the University of Toronto Chinese Network</a></h2>
-                <p>In collaboration with University of Toronto Chinese, we hosted on March 17, 2023, a small networking and cross-cultural dialogue session between Burmese and Chinese students at the University of Toronto. We brought cultural teas, hosted trivia, games, brought thanaka (Burmese makeup), and shared knowledge.</p>
-                <button onclick="location.href='hihi-event.html'">LEARN MORE</button>
-            </div>
-        </div>
-        <div class="events-card left-event">
-            <img src="img/council-event.jpg" alt="Panel Event">
-            <div class="event-desc-box">
-                <h2><a href="panel-event.html">Supporting Myanmar's Spring Revolution: Diaspora Communities in Solidarity</a></h2>
-                <p>On March 11, 2023, the MCC collaborated with the @asianinstitute_uoft to host a panel discussion about activism in Myanmar across generations. Thank you to our excellent panelists @hann_may and U Donald Ming for sharing their experiences.</p>
-                <button onclick="location.href='panel-event.html'">LEARN MORE</button>
-            </div>
-        </div>
-        <div class="events-card right-event">
-            <img src="img/movie-event.jpg" alt="Movie Event">
-            <div class="event-desc-box">
-                <h2><a href="movie-event.html">February Burmese Documentary Film Showing</a></h2>
-                <p>On February 11, 2023, at the Innis College Townhall Theatre, we hosted a film by Documentary Producer Ko Pauk called Rays of Hope. Most of the general attendance was by members of the Burmese community and the event was hosted largely in partnership with the Myanmar Emergency Fund. Food, some fundraising activities, and some performances were also held there as well.</p>
-                <button onclick="location.href='movie-event.html'">LEARN MORE</button>
-            </div>
-        </div>
-        <div class="events-card left-event">
-            <img src="img/food-event.jpeg" alt="Food Bazaar Event">
-            <div class="event-desc-box">
-                <h2><a href="food-bazaar-event.html">UTSU Food Bazaar - Myanmar Culture Club Participant</a></h2>
-                <p>We joined the UTSU's Multi-Cultural Food Bazaar at the Student Commons. Using funding from our community partners, we served free Burmese Ee Kyaw Kway (Fried Bread) and Lay Pay Ye (Milk Tea) while having individuals learn a little bit about the country and culture. There was a great turnout of people interested in Myanmar and of course in our free food.</p>
-                <button onclick="location.href='food-bazaar-event.html'">LEARN MORE</button>
-            </div>
-        </div>
-        <div class="events-card right-event">
-            <img src="img/first-meeting-event.jpeg" alt="First Meeting Event">
-            <div class="event-desc-box">
-                <h2><a href="first-meeting-event.html">First MCC Annual General Meeting</a></h2>
-                <p>We hosted our first annual general meeting on October 21, 2022 at an OISE classroom. There we outlined collaboratively our interests and ideas, networked, and enjoyed some pizza and soft drinks. We also voted on our constitution and held our first ever executive elections.</p>
-                <button onclick="location.href='first-meeting-event.html'">LEARN MORE</button>
-            </div>
-        </div>
-    </div>
-      
-        
-    <footer>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="events.html" class="active">Events</a></li>
-                <li><a href="reports.html">Reports</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="make-change.html">Make Change</a></li>
-            </ul>
-            <p>Copyright © 2023 Myanmar Culture Club</p>
-    </footer>
-</body>
+      <h1>Events</h1>
 
+      <div class="events-card left-event">
+        <img src="img/hihi-event.jpg" alt="Mixer Event>" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="mixer-event.html">MCC Mixer</a>
+          </h2>
+          <p>
+            Surprise! We hosted a mixer!🤩 MCC had its first ever mixer on
+            Sunday!🎉 It was a great success with plenty of new faces enjoying
+            food, games, and karaoke.
+          </p>
+          <button onclick="location.href='mixer-event.html'">LEARN MORE</button>
+        </div>
+      </div>
+
+      <div class="events-card right-event">
+        <img src="img/hihi-event.jpg" alt="World Kaleidoscope>" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="sweet-taste-of-myanmar-and-china-event.html"
+              >A Sweet Taste of Myanmar & China</a
+            >
+          </h2>
+          <p>
+            An @mcc_uoft & @utchinesenetwork collab serving delicious Chinese
+            and Burmese desserts & tea🙌🏼 We had a fantastic time meeting
+            everyone & enjoying delicious treats with kahoots & string games!🤩
+            Big thanks to everyone who attended & thank you to the International
+            Student Experience for sponsoring this event!🫶🏻
+          </p>
+          <button
+            onclick="location.href='sweet-taste-of-myanmar-and-china-event.html'"
+          >
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card left-event">
+        <img src="img/hihi-event.jpg" alt="World Kaleidoscope>" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="savoury-taste-of-myanmar-event.html"
+              >A Savoury Taste of Myanmar</a
+            >
+          </h2>
+          <p>
+            We had our Savoury Taste of Myanmar event yesterday! We served Ohn
+            No Khao Swe - a delicious coconut noodle dish from Myanmar😋🍲 We
+            had a great time seeing everyone, playing Kahoot and enjoying tea
+            from Myanmar!🇲🇲🫶🏻 Thank you to everyone who attended in support &
+            thank you to the International Student Experience for sponsoring
+            this event. Big thanks and shoutout to Penny's Kitchen for catering
+            the dish!
+          </p>
+          <button onclick="location.href='savoury-taste-of-myanmar-event.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card right-event">
+        <img src="img/hihi-event.jpg" alt="World Kaleidoscope>" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="world-kaleidoscope-event.html">World Kaleidoscope</a>
+          </h2>
+          <p>
+            Thank you to the World 🌎 Kaleidoscope for hosting us this weekend!
+            🇲🇲 We had a lot of fun meeting everyone and enjoyed the food and
+            cultures of Afghanistan, Mongolia, Thailand, China & Georgia!🙌🏼 We
+            also loved the music & dances! Special thanks to Serena for
+            organizing!
+          </p>
+          <button onclick="location.href='world-kaleidoscope-event.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card left-event">
+        <img
+          src="img/hihi-event.jpg"
+          alt="Myanmar Human Rights Panel Discussion>"
+        />
+        <div class="event-desc-box">
+          <h2>
+            <a href="panel-discussion-event.html">Multicultural Munch</a>
+          </h2>
+          <p>
+            We're hosting a panel discussion on human rights in Myanmar!🇲🇲 MCC
+            is honoured to welcome three members of Myanmar's National Unity
+            Government (NUG) as our panelists. NUG was formed after the 2021
+            coup d'état. It is a parallel government formed by MPs that managed
+            to evade arrest, and the People's Defence Force, a resistance armed
+            group. It is Myanmar's most diverse government to date.
+          </p>
+          <button onclick="location.href='panel-discussion-event.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card right-event">
+        <img src="img/hihi-event.jpg" alt="Multicultural Munch" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="multicultural-munch-event.html">Multicultural Munch</a>
+          </h2>
+          <p>
+            Come munch at the Multicultural Munch!🌟 MCC is excited to
+            participate and share a classic Burmese dessert - Shwe Yin Aye😋 4
+            other clubs will also be showcasing their cultural foods so you
+            don't want to miss this mini taste of Asia!🌏🍽️
+          </p>
+          <button onclick="location.href='multicultural-munch-event.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card left-event">
+        <img
+          src="img/hihi-event.jpg"
+          alt="SEAsian Students and Clubs Welcome"
+        />
+        <div class="event-desc-box">
+          <h2>
+            <a href="SEAsian-welcome-event.html"
+              >Southeast Asian Students and Clubs Welcome</a
+            >
+          </h2>
+          <p>
+            MCC participated in the Southeast Asian Students and Clubs Welcome
+            event! Representatives of our club met other Southeast Asian peers,
+            mentors, club leaders and PhD candidates at UofT. We had a great
+            time socializing and networking with everyone while enjoying some
+            food✨
+          </p>
+          <button onclick="location.href='SEAsian-welcome-event.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card right-event">
+        <img src="img/hihi-event.jpg" alt="Bryan Dickie Gallery" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="bryan-dickie-gallery-event.html"
+              >Documenting Myanmar's Revolution: A Photo Gallery</a
+            >
+          </h2>
+          <p>
+            This gallery features photos from Bryan Dickie's published photo
+            book covering Myanmar's ongoing civil war. The book focuses on
+            civilians who joined together to form an opposition army dubbed the
+            'People's Defence Force' who are actively fighting an entrenched
+            military regime that took control of the country in the 2021
+            February coup.
+          </p>
+          <button onclick="location.href='utsu-fair-event-2023.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card left-event">
+        <img
+          src="img/hihi-event.jpg"
+          alt="Mahadhammika Myanmar Buddhist Temple Visit"
+        />
+        <div class="event-desc-box">
+          <h2>
+            <a href="temple-visit-event.html"
+              >Mahadhammika Myanmar Buddhist Temple Visit</a
+            >
+          </h2>
+          <p>
+            MCC hosted a visit to the Mahādhammika Myanmar Buddhist Temple. We
+            learned about the principles of Buddhism and mindfulness. We got a
+            chance to practice our mindfulness through a guided meditation by
+            the monk. Finally, we had a delicious Burmese lunch with desserts.
+          </p>
+          <button onclick="location.href='temple-visit-event.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card right-event">
+        <img src="img/hihi-event.jpg" alt="UTSU Clubs Fair 2023" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="utsu-fair-event-2023.html">UTSU Clubs Fair 2023</a>
+          </h2>
+          <p>
+            We held a booth at the UTSU Clubs Fair 2023! We showed people our
+            longyi and how to wear thanakha. Thank you to everyone who stopped
+            by to learn about Myanmar and signed up to be part of our club!
+          </p>
+          <button onclick="location.href='utsu-fair-event-2023.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card left-event">
+        <img src="img/hihi-event.jpg" alt="New Students Welcome Event" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="new-students-welcome-event.html"
+              >New Students Welcome Event with MSAO and Burma Scholar</a
+            >
+          </h2>
+          <p>
+            MCC hosted a New Students Welcome Event, in collaboration with MSAO
+            and Burma Scholar. We met many students new to Toronto/Canada & some
+            old ones. \n\nThe event was a success with new friendly faces and
+            yummy food. Thanks to everyone who showed up!🙌🏼.
+          </p>
+          <button onclick="location.href='new-students-welcome-event.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card right-event">
+        <img src="img/hihi-event.jpg" alt="Hi Hi Event" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="hihi-event.html"
+              >Hi Hi - Cross-Cultural Dialogue with the University of Toronto
+              Chinese Network</a
+            >
+          </h2>
+          <p>
+            In collaboration with University of Toronto Chinese, we hosted on
+            March 17, 2023, a small networking and cross-cultural dialogue
+            session between Burmese and Chinese students at the University of
+            Toronto. We brought cultural teas, hosted trivia, games, brought
+            thanaka (Burmese makeup), and shared knowledge.
+          </p>
+          <button onclick="location.href='hihi-event.html'">LEARN MORE</button>
+        </div>
+      </div>
+
+      <div class="events-card left-event">
+        <img src="img/council-event.jpg" alt="Panel Event" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="panel-event.html"
+              >Supporting Myanmar's Spring Revolution: Diaspora Communities in
+              Solidarity</a
+            >
+          </h2>
+          <p>
+            On March 11, 2023, the MCC collaborated with the
+            @asianinstitute_uoft to host a panel discussion about activism in
+            Myanmar across generations. Thank you to our excellent panelists
+            @hann_may and U Donald Ming for sharing their experiences.
+          </p>
+          <button onclick="location.href='panel-event.html'">LEARN MORE</button>
+        </div>
+      </div>
+
+      <div class="events-card right-event">
+        <img src="img/movie-event.jpg" alt="Movie Event" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="movie-event.html"
+              >February Burmese Documentary Film Showing</a
+            >
+          </h2>
+          <p>
+            On February 11, 2023, at the Innis College Townhall Theatre, we
+            hosted a film by Documentary Producer Ko Pauk called Rays of Hope.
+            Most of the general attendance was by members of the Burmese
+            community and the event was hosted largely in partnership with the
+            Myanmar Emergency Fund. Food, some fundraising activities, and some
+            performances were also held there as well.
+          </p>
+          <button onclick="location.href='movie-event.html'">LEARN MORE</button>
+        </div>
+      </div>
+
+      <div class="events-card left-event">
+        <img src="img/food-event.jpeg" alt="Food Bazaar Event" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="food-bazaar-event.html"
+              >UTSU Food Bazaar - Myanmar Culture Club Participant</a
+            >
+          </h2>
+          <p>
+            We joined the UTSU's Multi-Cultural Food Bazaar at the Student
+            Commons. Using funding from our community partners, we served free
+            Burmese Ee Kyaw Kway (Fried Bread) and Lay Pay Ye (Milk Tea) while
+            having individuals learn a little bit about the country and culture.
+            There was a great turnout of people interested in Myanmar and of
+            course in our free food.
+          </p>
+          <button onclick="location.href='food-bazaar-event.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+
+      <div class="events-card right-event">
+        <img src="img/first-meeting-event.jpeg" alt="First Meeting Event" />
+        <div class="event-desc-box">
+          <h2>
+            <a href="first-meeting-event.html"
+              >First MCC Annual General Meeting</a
+            >
+          </h2>
+          <p>
+            We hosted our first annual general meeting on October 21, 2022 at an
+            OISE classroom. There we outlined collaboratively our interests and
+            ideas, networked, and enjoyed some pizza and soft drinks. We also
+            voted on our constitution and held our first ever executive
+            elections.
+          </p>
+          <button onclick="location.href='first-meeting-event.html'">
+            LEARN MORE
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html" class="active">Events</a></li>
+        <li><a href="reports.html">Reports</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="make-change.html">Make Change</a></li>
+      </ul>
+      <p>Copyright © 2023 Myanmar Culture Club</p>
+    </footer>
+  </body>
 </html>
