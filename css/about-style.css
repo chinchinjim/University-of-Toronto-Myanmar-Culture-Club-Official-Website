@@ -1,6 +1,6 @@
 .about-page {
     color: var(--light-clr);
-    background-image: url("../img/aboutbg.jpg");
+    background-image: url("../img/backgrounds/aboutbg.webp");
     min-height: 100vh;
     background-position: center;
     background-size: cover;

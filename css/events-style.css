@@ -4,7 +4,7 @@
     padding-left: 10vw;
     padding-right: 10vw;
     color: var(--light-clr);
-    background-image: url("../img/eventsbg.jpg");
+    background-image: url("../img/backgrounds/eventsbg.webp");
     min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
@@ -82,7 +82,7 @@
 
 .event-bg-container {
     padding: 20vh 5vw 3rem 5vw;
-    background-image: url("../img/eventsbg.jpg");
+    background-image: url("../img/backgrounds/eventsbg.webp");
     background-size: cover;
     background-position: center;
     background-color: rgba(0,0,0,0.6);

@@ -194,7 +194,7 @@ nav a:hover {
 .home-sec-one{
     width: 100vw;
     height: 70vh;
-    background-image: url("../img/homebg.jpeg");
+    background-image: url("../img/backgrounds/homebg.webp");
     background-size: cover;
     background-position: top;
     background-color: rgba(0,0,0,0.2);
@@ -329,7 +329,7 @@ nav a:hover {
   }
 
   .home-sec-three {
-    background-image: url("../img/homebg2.jpg");
+    background-image: url("../img/backgrounds/homebg2.webp");
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -518,7 +518,7 @@ nav a:hover {
     position: relative;
     padding-top: 3em;
     min-height: 60vh;
-    background-image: url("../img/homebg3.jpg");
+    background-image: url("../img/backgrounds/homebg3.webp");
     background-color: rgba(0,0,0,0.2);
     background-blend-mode: darken;
     background-size: cover;

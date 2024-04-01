@@ -1,5 +1,5 @@
 .reports-page {
-    background-image: url("../img/reportsbg.jpg");
+    background-image: url("../img/backgrounds/reportsbg.webp");
     background-position: center;
     background-size: cover;
     background-color: rgba(0,0,0,0.6);
@@ -69,7 +69,7 @@
 }
     
 .report-bg-container {
-    background-image: url("../img/reportsbg.jpg");
+    background-image: url("../img/backgrounds/reportsbg.webp");
     background-size: cover;
     background-position: center;
     background-color: rgba(0,0,0,0.6);

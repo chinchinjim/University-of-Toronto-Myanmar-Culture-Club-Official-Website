@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Myanmar Culture Club - University of Toronto</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/events-style.css" />
+    <link rel="icon" href="../img/icons/favicon.webp" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="../index.html"
+        ><img
+          src="../img/icons/favicon.webp"
+          class="logo"
+          alt="Myanmar Culture Club Logo"
+      /></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../bout.html">About</a></li>
+          <li><a href="../events.html">Events</a></li>
+          <li><a href="../reports.html">Reports</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+          <li><a href="../make-change.html">Make Change</a></li>
+        </ul>
+      </nav>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
+
+    <div class="event-bg-container">
+      <div class="event-subpage">
+        <h1>New Students Welcome Event</h1>
+        <div class="event-date"><p>September 3, 2023</p></div>
+
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <img
+              src="../img/events/new-students-welcome/new-students-event-1.webp"
+              style="width: 100%"
+            />
+          </div>
+          <div class="mySlides fade">
+            <img
+              src="../img/events/new-students-welcome/new-students-event-2.webp"
+              style="width: 100%"
+            />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+          <script>
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides((slideIndex += n));
+            }
+
+            function currentSlide(n) {
+              showSlides((slideIndex = n));
+            }
+
+            function showSlides(n) {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              if (n > slides.length) {
+                slideIndex = 1;
+              }
+              if (n < 1) {
+                slideIndex = slides.length;
+              }
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              slides[slideIndex - 1].style.display = "block";
+            }
+          </script>
+        </div>
+        <p>
+          MCC hosted a New Students Welcome Event, in collaboration with MSAO
+          and Burma Scholar. We met many students new to Toronto/Canada & some
+          old ones. \n\nThe event was a success with new friendly faces and
+          yummy food. Thanks to everyone who showed up!🙌🏼.
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../events.html">Events</a></li>
+        <li><a href="../reports.html">Reports</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../make-change.html">Make Change</a></li>
+      </ul>
+      <p>Copyright © 2023 Myanmar Culture Club</p>
+    </footer>
+  </body>
+</html>
